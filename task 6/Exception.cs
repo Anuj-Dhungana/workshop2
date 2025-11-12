@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace workshop2.task_6
 {
-    internal class Exception
+    internal class ExceptionHandler
     {
         public void ConvertToInteger()
         {

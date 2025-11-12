@@ -10,7 +10,7 @@ namespace workshop2.task_6
     {
         static void Main(string[] args)
         {
-            var demo = new Exception();
+            var demo = new ExceptionHandler();
 
             demo.ConvertToInteger();
             Console.WriteLine();
