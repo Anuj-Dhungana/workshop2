@@ -28,7 +28,8 @@ namespace workshop2.task_1
         {
             if (b == 0)
             {
-                throw new DivideByZeroException("Denominator zero hudaina!");
+                throw new DivideByZeroException("division by zero not allowed" +
+                    "");
             }
             return (double)a / b;
         }
