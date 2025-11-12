@@ -8,5 +8,11 @@ namespace workshop2.task_4
 {
     internal class Program
     {
+        static void Main(string[] args)
+        {
+            var dayPrinter = new DAyPrinter();
+            dayPrinter.PrintDay();
+
+        }
     }
 }

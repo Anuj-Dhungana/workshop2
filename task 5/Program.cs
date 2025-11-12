@@ -26,7 +26,7 @@ namespace workshop2.task_5
                 // Skip multiples of 4
                 if (num % 4 == 0)
                 {
-                    num++; 
+                    num++;
                     continue;
                 }
 

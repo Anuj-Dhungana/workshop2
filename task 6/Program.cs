@@ -8,5 +8,13 @@ namespace workshop2.task_6
 {
     internal class Program
     {
+        static void Main(string[] args)
+        {
+            var demo = new Exception();
+
+            demo.ConvertToInteger();
+            Console.WriteLine();
+            demo.CheckPassword();
+        }
     }
 }
